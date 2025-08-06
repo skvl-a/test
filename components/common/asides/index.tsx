@@ -27,7 +27,7 @@ function AsideContainer({
 	return (
 		<Sheet open={isOpenAside}>
 			<SheetContent className="bg-white pb-6" onClose={onClose}>
-				<SheetHeader className="px-5 pt-8 mb-6">
+				<SheetHeader className="px-4 pt-8 mb-6">
 					<SheetTitle className="text-[22px] font-semibold">{title}</SheetTitle>
 				</SheetHeader>
 				<div className="grid flex-1 auto-rows-min overflow-auto gap-6 px-4">

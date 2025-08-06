@@ -1,5 +1,5 @@
+import ActionPrevIcon from "@/app/_icons/ActionBack";
 import ActionNextIcon from "@/app/_icons/ActionNext";
-import ActionPrevIcon from "@/app/_icons/ActionPrev";
 import SvgReGenerateIcon from "@/app/_icons/ReGenerateIcon";
 import BackgroundItem from "@/components/common/background-item";
 import { Button } from "@/components/ui/button";
@@ -16,7 +16,7 @@ function AsideBackgroundLayout({ onReGenerate }: { onReGenerate: () => void }) {
 					effect. Regenerate 0/700
 				</p>
 
-				<div className="min-h-[35px] absolute bottom-0 left-0 right-0 flex items-center justify-between">
+				<div className="min-h-[35px] pr-2 absolute bottom-2 left-0 right-0 flex items-center justify-between">
 					<Button
 						onClick={onReGenerate}
 						className="cursor-pointer border-none shadow-none outline-0 focus:outline-none"
@@ -25,13 +25,13 @@ function AsideBackgroundLayout({ onReGenerate }: { onReGenerate: () => void }) {
 						Regenerate
 					</Button>
 
-					<div className="flex items-center">
-						<Button className="shadow-none border-none cursor-pointer">
-							<ActionPrevIcon />
+					<div className="flex items-center pr-2">
+						<Button className="shadow-none border-none cursor-pointer p-0">
+							<ActionPrevIcon className="!w-[20px] !h-[20px]" />
 						</Button>
 
-						<Button className=" shadow-none border-none cursor-pointer">
-							<ActionNextIcon />
+						<Button className=" shadow-none border-none cursor-pointer !px-1">
+							<ActionNextIcon className="!w-[20px] !h-[20px]" />
 						</Button>
 					</div>
 				</div>

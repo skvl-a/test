@@ -5,49 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7e451e-b0f0-4bcf-970d-843e3f20e085" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/biome.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_icons/ActionNext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_icons/ActionPrev.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_icons/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_icons/ReGenerateIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_icons/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biome.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/asides/background.aside.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/asides/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/background-item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/progressbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/sheet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/home.view.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Italian-Plate-No2-Expanded-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Italian-Plate-No2-Expanded-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Italian-Plate-No2-Expanded-Demibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Italian-Plate-No2-Expanded-Extrabold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Italian-Plate-No2-Expanded-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/action-prev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/action_next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/re-generate-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/main-user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/action_back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/asides/background.aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/asides/background.aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/asides/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/asides/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754224747640</updated>
       <workItem from="1754224748828" duration="1503000" />
-      <workItem from="1754226310685" duration="31495000" />
+      <workItem from="1754226310685" duration="36254000" />
     </task>
     <servers />
   </component>
