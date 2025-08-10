@@ -78,7 +78,7 @@ export default function HomeView() {
 
 							<Button
 								onClick={onOpenAside}
-								className="bg-black-opacity cursor-pointer rounded-lg border-none shadow-none absolute text-white font-semibold top-2 left-1/2 -translate-x-1/2 "
+								className="bg-black-opacity cursor-pointer rounded-lg border-none shadow-none absolute text-white font-semibold top-2 left-1/2 -translate-x-1/2 transition-all hover:bg-[rgba(0,0,0,0.8)] hover:shadow-lg hover:scale-102 active:scale-100 active:bg-[rgba(0,0,0,0.6)]"
 								variant="outline"
 							>
 								<ButtonIcon />

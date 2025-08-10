@@ -12,7 +12,7 @@ function Progressbar({ value }: { value: number }) {
 			strokeWidth={4}
 			value={value}
 			text={`${value}%`}
-			className="max-w-[60px]"
+			className="max-w-[64px]"
 		/>
 	);
 }

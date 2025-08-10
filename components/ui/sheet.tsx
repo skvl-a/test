@@ -3,6 +3,7 @@
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { XIcon } from "lucide-react";
 import type * as React from "react";
+import OutsideClickHandler from "react-outside-click-handler";
 
 import { cn } from "@/lib/utils";
 
@@ -56,7 +57,11 @@ function SheetContent({
 }) {
 	return (
 		<SheetPortal>
-			<SheetOverlay className="data-[state=open]:bg-[rgba(0,0,0,0.7)]" />
+			<SheetOverlay
+				onClick={onClose}
+				className="data-[state=open]:bg-[rgba(0,0,0,0.7)]"
+			/>
+
 			<SheetPrimitive.Content
 				data-slot="sheet-content"
 				className={cn(
@@ -76,7 +81,7 @@ function SheetContent({
 				{children}
 				<SheetPrimitive.Close
 					onClick={onClose}
-					className="cursor-pointer ring-offset-background focus:ring-ring data-[state=open]:bg-secondary absolute top-[34px] right-5 rounded-xs opacity-70 transition-opacity hover:opacity-100  focus:outline-hidden disabled:pointer-events-none"
+					className="cursor-pointer ring-offset-background focus:ring-ring data-[state=open]:bg-secondary absolute top-[32px] right-5 rounded-xs opacity-70 transition-opacity hover:opacity-100  focus:outline-hidden disabled:pointer-events-none"
 				>
 					<XIcon className="size-6" />
 					<span className="sr-only">Close</span>

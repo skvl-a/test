@@ -26,11 +26,14 @@ function AsideContainer({
 
 	return (
 		<Sheet open={isOpenAside}>
-			<SheetContent className="bg-white pb-6" onClose={onClose}>
-				<SheetHeader className="px-4 pt-8 mb-6">
+			<SheetContent
+				className="bg-white pb-6 min-w-[400px] gap-0"
+				onClose={onClose}
+			>
+				<SheetHeader className="px-5 pt-[29px] mb-0 pb-[18px]">
 					<SheetTitle className="text-[22px] font-semibold">{title}</SheetTitle>
 				</SheetHeader>
-				<div className="grid flex-1 auto-rows-min overflow-auto gap-6 px-4">
+				<div className="grid flex-1 auto-rows-min overflow-auto gap-0 px-5">
 					{renderContent()}
 				</div>
 			</SheetContent>

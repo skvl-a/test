@@ -32,7 +32,7 @@ function BackgroundItem({
 			</div>
 
 			{isDefault && (
-				<div className="absolute left-2 top-2 bg-white rounded-md px-1 pt-0.5 border-2 border-gray-50">
+				<div className="absolute left-[7px] top-[6px] bg-white rounded-md px-1 pt-0.5 border-2 border-gray-50">
 					<p className="uppercase text-[10px] font-bold text-gray-100">
 						default
 					</p>
@@ -41,11 +41,11 @@ function BackgroundItem({
 
 			{isLoading && (
 				<div className="absolute left-0 right-0 top-0 bottom-0 z-10 bg-black flex flex-col items-center justify-center">
-					<div className="mt-auto">
+					<div className="mt-auto relative top-[14px]">
 						<Progressbar value={loadingValue ?? 0} />
 					</div>
 
-					<p className="text-white font-semibold mb-3 text-[12px] mt-auto">
+					<p className="text-white font-semibold mb-2.5 text-[12px] mt-auto">
 						1 minute left
 					</p>
 				</div>
