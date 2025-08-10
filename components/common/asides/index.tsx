@@ -27,6 +27,7 @@ function AsideContainer({
 	return (
 		<Sheet open={isOpenAside}>
 			<SheetContent
+				autoFocus={false}
 				className="bg-white pb-6 min-w-[400px] gap-0 outline-0"
 				onClose={onClose}
 			>
