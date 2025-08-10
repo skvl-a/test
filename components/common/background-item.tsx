@@ -14,7 +14,7 @@ function BackgroundItem({
 	return (
 		<div
 			className={cn(
-				"relative border-transparent overflow-hidden border-2 rounded-xl",
+				"relative border-transparent overflow-hidden border-2 rounded-xl hover:border-black hover:cursor-pointer",
 				{
 					["border-black"]: isDefault,
 				},
