@@ -25,12 +25,12 @@ function AsideBackgroundLayout({
 				<textarea
 					id="background-idea"
 					name="background-idea"
-					className="text-[14px] border p-4 border-gray-50 pt-[14px] rounded-xl leading-[20px] font-medium outline-0 min-h-[195px] w-full resize-none focus:border-black"
+					className="text-[14px] border p-4 border-gray-50 pb-[60px] pt-[14px] rounded-xl leading-[20px] font-medium outline-0 min-h-[195px] w-full resize-none focus:border-black"
 					value={value}
 					onChange={(e) => setValue(e.target.value)}
 				></textarea>
 
-				<div className="min-h-[35px] pr-2 absolute bottom-2.5 left-0 right-0 flex items-center justify-between">
+				<div className="bg-white min-h-[35px] pr-2 absolute bottom-[1px] rounded-xl left-[2px] right-[2px] flex items-center justify-between pt-[4px] pb-[8px]">
 					<Button
 						onClick={onReGenerate}
 						className="cursor-pointer space-x-0 mt-0.5 p-0 pl-[16px] text-[12px] font-semibold border-none shadow-none outline-0 focus:outline-none"

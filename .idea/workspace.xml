@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a7e451e-b0f0-4bcf-970d-843e3f20e085" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_icons/ActionBack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_icons/ActionBack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_icons/ActionNext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_icons/ActionNext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_icons/ActionPrev.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_icons/ActionPrev.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/asides/background.aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/asides/background.aside.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/asides/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/asides/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/background-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/background-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/progressbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/progressbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sheet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/views/home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/home.view.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754224747640</updated>
       <workItem from="1754224748828" duration="1503000" />
-      <workItem from="1754226310685" duration="44150000" />
+      <workItem from="1754226310685" duration="45148000" />
     </task>
     <servers />
   </component>
