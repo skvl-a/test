@@ -17,6 +17,7 @@ function BackgroundItem({
 				"relative border-transparent overflow-hidden border-2 rounded-xl hover:border-black hover:cursor-pointer",
 				{
 					["border-black"]: isDefault,
+					["!border-transparent"]: isLoading,
 				},
 			)}
 		>

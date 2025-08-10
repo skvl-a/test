@@ -57,7 +57,7 @@ function AsideBackgroundLayout({
 				</Button>
 			</div>
 
-			<div className="mb-4">
+			<div className="mb-6">
 				<p className="text-[14px] font-semibold mb-2">Your backgrounds</p>
 
 				<div className="grid grid-cols-3 gap-2">
@@ -73,9 +73,7 @@ function AsideBackgroundLayout({
 				</div>
 			</div>
 
-			<div className="flex justify-between gap-4">
-				<div className="flex-1" />
-
+			<div className="flex justify-between">
 				<Button
 					onClick={() => {
 						return globalState.toggleAside();
