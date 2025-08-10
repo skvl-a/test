@@ -27,7 +27,7 @@ function AsideContainer({
 	return (
 		<Sheet open={isOpenAside}>
 			<SheetContent
-				className="bg-white pb-6 min-w-[400px] gap-0"
+				className="bg-white pb-6 min-w-[400px] gap-0 outline-0"
 				onClose={onClose}
 			>
 				<SheetHeader className="px-5 pt-[29px] mb-0 pb-[18px]">
